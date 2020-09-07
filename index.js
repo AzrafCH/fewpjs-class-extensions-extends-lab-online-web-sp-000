@@ -38,10 +38,10 @@ class Square extends Polygon {
     }
   }
   if (this.countSides !== 4) {
-    return false 
+    return false
   } else if (checkSides.call(this)) {
     return false
   } else {
-    return false 
+    return false
   }
 }
