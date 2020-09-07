@@ -14,7 +14,21 @@ class Polygon {
 }
 
 class Triangle extends Polygon {
+  get isValid() {
+    function checkSides() {
+      const perimeter = this.perimeter
+      return this.sides.some((side) => (perimeter - side) <= side)
+    }
 
+    if (this.getCount !== 3) {
+      return false
+    } else if (checkSides.call(this)) {
+      return false
+    } else {
+      return true
+    }
+  }
+  }
 }
 
 class Square extends Polygon {
