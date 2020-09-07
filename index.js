@@ -37,4 +37,11 @@ class Square extends Polygon {
       return this.sides.some((side) => side !== sideLength)
     }
   }
+  if (this.countSides !== 4) {
+    return false 
+  } else if (checkSides.call(this)) {
+    return false
+  } else {
+    return false 
+  }
 }
