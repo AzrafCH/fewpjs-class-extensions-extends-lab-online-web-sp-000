@@ -37,13 +37,7 @@ class Square extends Polygon {
       return this.sides.some((side) => side !== sideLength)
     }
   }
-  if (this.checkSides !== 4) {
-    return false
-  } else if (checkSides.call(this)) {
-    return false
-  } else {
-    return true
-  }
+
   get area() {
     return this.sides[0] ** 2
   }
