@@ -20,7 +20,7 @@ class Triangle extends Polygon {
       return this.sides.some((side) => (perimeter - side) <= side)
     }
 
-    if (this.getCount !== 3) {
+    if (this.countSides !== 3) {
       return false
     } else if (checkSides.call(this)) {
       return false
