@@ -42,6 +42,6 @@ class Square extends Polygon {
   } else if (checkSides.call(this)) {
     return false
   } else {
-    return false
+    return true
   }
 }
