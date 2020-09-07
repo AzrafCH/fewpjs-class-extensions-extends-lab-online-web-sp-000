@@ -5,6 +5,6 @@ class Polygon {
   }
 
   get countSides() {
-    
+
   }
-} 
+}
