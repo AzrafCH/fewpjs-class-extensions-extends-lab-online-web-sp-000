@@ -32,16 +32,10 @@ class Triangle extends Polygon {
 
 class Square extends Polygon {
   get isValid() {
-   function checkSides() {
-     const sideLength = this.sides[0]
-     return this.sides.some((side) => side !== sideLength)
-   }
-
-   if (this.countSides !== 4) {
-     return false
-   } else if (checkSides.call(this)) {
-     return false
-   } else {
-     return true
-   }
+    function checkSides() {
+      const sideLength = this.sides[0]
+      return this.sides.some((side) => side !== sideLength)
+    }
+  }
 }
+   
