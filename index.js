@@ -28,7 +28,6 @@ class Triangle extends Polygon {
       return true
     }
   }
-  }
 }
 
 class Square extends Polygon {
